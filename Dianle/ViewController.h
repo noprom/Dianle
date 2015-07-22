@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+// 引入点乐SDK头文件
+#import "JJSDK.h"
+#import "JJDiamondConstants.h"
+// 引入点乐SDK头文件
+@interface ViewController : UIViewController<JJSDKDelegate>
 
 
 @end

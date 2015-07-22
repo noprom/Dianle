@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    // 实现点乐SDK代理
+    [JJSDK setDelegate:self];
+    
+    // 展示点乐积分墙
+    [JJSDK showJJDiamondWithViewController:self];
 }
 
 - (void)didReceiveMemoryWarning {

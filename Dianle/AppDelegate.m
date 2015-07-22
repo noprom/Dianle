@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // **************点乐SDK初始化*************** //
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(offersWallConnectSuccess:) name:JJ_CONNECT_SUCCESS_NOTIFICATION object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(offersWallConnectFailed:) name:JJ_CONNECT_FAILED_NOTIFICATION object:nil];
+    [JJSDK requestJJSession:@"2652099a792fbc3d59f887113a3bb3d2" withUserID:@"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"];
+    // **************点乐SDK初始化*************** //
     return YES;
 }
 
@@ -42,4 +47,21 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+// ******************以下代码为点乐SDK推送****************** //
+
+#pragma mark - DianJoy offers wall connect notifications
+- (void)offersWallConnectSuccess:(NSNotification *)notification
+{
+    //    NSLog(@"connection success");
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"notice" message:@"connect success" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alertView show];
+    //    [alertView release];
+}
+- (void)offersWallConnectFailed:(NSNotification *)notification
+{
+    //    NSLog(@"connection failed");
+}
+
+
+// ******************以上代码为点乐SDK推送****************** //
 @end

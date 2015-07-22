@@ -14,6 +14,14 @@
 		80B576E01B5F4FEC0005A1F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B576DF1B5F4FEC0005A1F7 /* Images.xcassets */; };
 		80B576E31B5F4FEC0005A1F7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B576E11B5F4FEC0005A1F7 /* LaunchScreen.xib */; };
 		80B576EF1B5F4FEC0005A1F7 /* DianleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B576EE1B5F4FEC0005A1F7 /* DianleTests.m */; };
+		80B576FA1B5F531C0005A1F7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B576F91B5F531C0005A1F7 /* CoreTelephony.framework */; };
+		80B576FC1B5F53290005A1F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B576FB1B5F53290005A1F7 /* QuartzCore.framework */; };
+		80B576FE1B5F53330005A1F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B576FD1B5F53330005A1F7 /* SystemConfiguration.framework */; };
+		80B577001B5F533C0005A1F7 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B576FF1B5F533C0005A1F7 /* AdSupport.framework */; };
+		80B577021B5F53450005A1F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B577011B5F53450005A1F7 /* UIKit.framework */; };
+		80B577041B5F53500005A1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B577031B5F53500005A1F7 /* Foundation.framework */; };
+		80B577061B5F53590005A1F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B577051B5F53590005A1F7 /* CoreGraphics.framework */; };
+		80B5770B1B5F53FA0005A1F7 /* libJJSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B5770A1B5F53FA0005A1F7 /* libJJSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,16 @@
 		80B576E81B5F4FEC0005A1F7 /* DianleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B576ED1B5F4FEC0005A1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B576EE1B5F4FEC0005A1F7 /* DianleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianleTests.m; sourceTree = "<group>"; };
+		80B576F91B5F531C0005A1F7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		80B576FB1B5F53290005A1F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80B576FD1B5F53330005A1F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80B576FF1B5F533C0005A1F7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		80B577011B5F53450005A1F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80B577031B5F53500005A1F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80B577051B5F53590005A1F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80B577081B5F53FA0005A1F7 /* JJDiamondConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDiamondConstants.h; sourceTree = "<group>"; };
+		80B577091B5F53FA0005A1F7 /* JJSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSDK.h; sourceTree = "<group>"; };
+		80B5770A1B5F53FA0005A1F7 /* libJJSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJJSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B577061B5F53590005A1F7 /* CoreGraphics.framework in Frameworks */,
+				80B577041B5F53500005A1F7 /* Foundation.framework in Frameworks */,
+				80B577021B5F53450005A1F7 /* UIKit.framework in Frameworks */,
+				80B577001B5F533C0005A1F7 /* AdSupport.framework in Frameworks */,
+				80B576FE1B5F53330005A1F7 /* SystemConfiguration.framework in Frameworks */,
+				80B576FC1B5F53290005A1F7 /* QuartzCore.framework in Frameworks */,
+				80B5770B1B5F53FA0005A1F7 /* libJJSDK.a in Frameworks */,
+				80B576FA1B5F531C0005A1F7 /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 		80B576C61B5F4FEC0005A1F7 = {
 			isa = PBXGroup;
 			children = (
+				80B576F81B5F52230005A1F7 /* Frameworks */,
 				80B576D11B5F4FEC0005A1F7 /* Dianle */,
 				80B576EB1B5F4FEC0005A1F7 /* DianleTests */,
 				80B576D01B5F4FEC0005A1F7 /* Products */,
@@ -81,6 +108,7 @@
 		80B576D11B5F4FEC0005A1F7 /* Dianle */ = {
 			isa = PBXGroup;
 			children = (
+				80B577071B5F53FA0005A1F7 /* DianleSDK */,
 				80B576D61B5F4FEC0005A1F7 /* AppDelegate.h */,
 				80B576D71B5F4FEC0005A1F7 /* AppDelegate.m */,
 				80B576D91B5F4FEC0005A1F7 /* ViewController.h */,
@@ -117,6 +145,31 @@
 				80B576ED1B5F4FEC0005A1F7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80B576F81B5F52230005A1F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B577051B5F53590005A1F7 /* CoreGraphics.framework */,
+				80B577031B5F53500005A1F7 /* Foundation.framework */,
+				80B577011B5F53450005A1F7 /* UIKit.framework */,
+				80B576FF1B5F533C0005A1F7 /* AdSupport.framework */,
+				80B576FD1B5F53330005A1F7 /* SystemConfiguration.framework */,
+				80B576FB1B5F53290005A1F7 /* QuartzCore.framework */,
+				80B576F91B5F531C0005A1F7 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B577071B5F53FA0005A1F7 /* DianleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				80B577081B5F53FA0005A1F7 /* JJDiamondConstants.h */,
+				80B577091B5F53FA0005A1F7 /* JJSDK.h */,
+				80B5770A1B5F53FA0005A1F7 /* libJJSDK.a */,
+			);
+			name = DianleSDK;
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +402,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dianle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dianle/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +416,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Dianle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dianle/libs",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
